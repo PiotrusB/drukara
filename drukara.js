@@ -34,7 +34,7 @@ text("Kliknij w DRUKARE 3D.", width/2, height/1.5);
 
 function touchStarted() {
 if(mouseY > (height/3) - (imgHeight/2) && mouseY < (height/3) + (imgHeight/2) && mouseX > width/2 - imgWidth/2 && mouseX < width/2 + imgWidth/2 ) {
-window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
 }
 return false;
 }
