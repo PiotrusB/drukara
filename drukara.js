@@ -41,7 +41,7 @@ return false;
 
 function mousePressed() {
 if(mouseY > (height/3) - (imgHeight/2) && mouseY < (height/3) + (imgHeight/2) && mouseX > width/2 - imgWidth/2 && mouseX < width/2 + imgWidth/2 ) {
-window.location = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ';
+window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank);
 while(true) {
 alert("womp womp");
 }
