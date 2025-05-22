@@ -34,7 +34,7 @@ text("DRUKARA 3D.", width/2, height/1.5);
 
 function touchStarted() {
 if(mouseY > (height/3) - (imgHeight/2) && mouseY < (height/3) + (imgHeight/2) && mouseX > width/2 - imgWidth/2 && mouseX < width/2 + imgWidth/2 ) {
-window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank');
+window.open('https://youtu.be/dQw4w9WgXcQ?si=s4N2t27Vu2DRwLLI', '_blank');
 }
 return false;
 }
