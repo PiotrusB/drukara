@@ -29,7 +29,7 @@ imgWidth = map(animation, 0, 100, width/3, width/2);
 imgHeight = map(map(animation, 0, 100, width/3, width/2), 0, printer.width, 0, printer.height)
 image(printer, width/2, height/3, imgWidth, imgHeight);
 fill(0, 255, 100);
-text("DRUKARA 3D.", width/2, height/1.5);
+text("Kliknij w DRUKARĘ 3D.", width/2, height/1.5);
 }
 
 function touchStarted() {
